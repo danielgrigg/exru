@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 2.8)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+project(exru)
+set (EXRU_VERSION_MAJOR 0)
+set (EXRU_VERSION_MINOR 1)
+include_directories(src)
+
+FIND_PACKAGE(OpenEXR REQUIRED COMPONENTS )
+
+set(SOURCES)
+set(SOURCES ${SOURCES} src/exru.cpp)
+set(SOURCES ${SOURCES} src/exru.h)
+source_group(exru FILES src/exru.cpp src/exru.h)
+add_library(exru SHARED ${SOURCES})
+include_directories(${OPENEXR_INCLUDE_DIRS})
+target_link_libraries(exru ${OPENEXR_LIBRARIES})
+
+install (TARGETS exru DESTINATION lib)
+install (FILES src/exru.h DESTINATION include/exru)
+
