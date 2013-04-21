@@ -1,6 +1,8 @@
 #ifndef EXRU_H
 #define EXRU_H
 
+// MAJOR_VERSION
+
 extern "C" {
   
   /*

@@ -1,3 +1,7 @@
 *.un~
 *.dylib
-
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+install_manifest.txt

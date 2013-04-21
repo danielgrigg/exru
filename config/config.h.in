@@ -1,0 +1,11 @@
+//
+// config.h
+//
+#ifndef _CONFIG_H
+#define _CONFIG_H
+
+#define EXRU_VERSION_MAJOR @EXRU_VERSION_MAJOR@
+#define EXRU_VERSION_MINOR @EXRU_VERSION_MINOR@
+
+#endif
+
