@@ -5,7 +5,7 @@
 #define _CONFIG_H
 
 #define EXRU_VERSION_MAJOR 0
-#define EXRU_VERSION_MINOR 2
+#define EXRU_VERSION_MINOR 3
 
 #endif
 
