@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Ubuntu
-# sudo apt-get install cmake openexr
+# sudo apt-get install cmake libopenexr-dev
 
 # Mac OS X
 # brew install cmake openexr
