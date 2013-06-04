@@ -6,3 +6,6 @@
 # Mac OS X
 brew install cmake openexr
 
+mkdir build
+cd build
+cmake .. && make install
