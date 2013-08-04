@@ -2,7 +2,7 @@ language: cpp
 compiler:
 - gcc
 - clang
-script: cmake
+script: cmake .
 branches:
 only:
 - master
