@@ -1,0 +1,14 @@
+language: cpp
+compiler:
+- gcc
+- clang
+script: cmake
+branches:
+only:
+- master
+notifications:
+recipients:
+- mail@danielgrigg.com
+email:
+on_success: change
+on_failure: always
