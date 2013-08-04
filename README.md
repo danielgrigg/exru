@@ -2,6 +2,8 @@
 
 Dead simple OpenEXR IO. Exposes a single function, write\_rgba to write a pixel-array to an EXR file.
 
+[![Build Status](https://travis-ci.org/danielgrigg/exru.png?branch=master)](https://travis-ci.org/danielgrigg/exru)
+
 ## Installing 
 
 Make sure OpenEXR and CMake are installed.
